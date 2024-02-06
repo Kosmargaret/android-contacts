@@ -3,7 +3,6 @@ package ru.yandex.practicum.contacts.presentation.base;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.DiffUtil;
 
-//public class BaseListDiffCallback extends DiffUtil.ItemCallback implements ListDiffInterface <BaseListDiffCallback>{
 
 public class BaseListDiffCallback<T extends ListDiffInterface<T>> extends DiffUtil.ItemCallback<T> {
 
